@@ -1,0 +1,42 @@
+{
+  "name": "bienesraices_mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "keywords": [
+    "MVC",
+    "Pug",
+    "Tailwind",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "Mariana Ampudia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bienesraices_mvc": "file:",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.2",
+    "nodemailer": "^6.9.14",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "nodemon": "^3.1.4",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.4"
+  }
+}
